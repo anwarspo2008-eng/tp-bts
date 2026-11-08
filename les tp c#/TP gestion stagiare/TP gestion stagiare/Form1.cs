@@ -35,7 +35,7 @@ namespace TP_gestion_stagiare
             cmd.ExecuteNonQuery();
             cnx.Close();
 
-            MessageBox.Show("Client ajouter  avec succes !");
+            MessageBox.Show("Stagiaire ajouter  avec succes !");
             textBox1.Clear();
             textBox2.Clear();
             textBox3.Clear();
