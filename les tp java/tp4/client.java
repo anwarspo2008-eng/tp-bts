@@ -1,3 +1,4 @@
+
 public class client implements Comparable, Cloneable { 
     private int num; 
     private String email, nom; 
@@ -30,7 +31,7 @@ public class client implements Comparable, Cloneable {
         return Integer.compare(this.num, c.num); 
     } 
 } 
-
+ 
 class NuminvalideException extends Exception { 
     public NuminvalideException(String message) { 
         super(message); 
