@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 40px 20px;
     font-family: "Space Mono", "Courier New", monospace;
     color: var(--ink);
     background-color: var(--paper);
@@ -43,7 +43,7 @@ body {
     border: none;
 }
 
-/* Title sticker sitting on the top edge */
+/* Title sticker on the top edge */
 .f2 {
     position: absolute;
     top: -22px;
@@ -96,6 +96,7 @@ input:focus {
     transform: translate(-2px, -2px);
 }
 
+/* Button: a physical key that gets pressed */
 .b1 {
     width: 100%;
     padding: 12px;
@@ -121,4 +122,36 @@ input:focus {
 .b1:active {
     transform: translate(5px, 5px);
     box-shadow: 0 0 0 var(--ink);
+}
+
+/* Link under the form */
+.switch {
+    margin-top: 22px;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.switch a {
+    color: var(--ink);
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+
+.switch a:hover {
+    background: var(--butter);
+}
+
+/* Logout page */
+.msg {
+    margin-bottom: 22px;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.link-btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
 }

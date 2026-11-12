@@ -1,11 +1,15 @@
 <?php
-$pdo = new PDO("mysql:host=127.0.0.1;port=3308;dbname=testdb;charset=utf8mb4", "root", "");
-$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+require "db.php";
 
-$full_name = trim($_POST["full_name"]);
-$phone     = trim($_POST["phone"]);
-$email     = trim($_POST["email"]);
-$password  = $_POST["password"];
+$full_name = trim($_POST["full_name"] ?? "");
+$phone     = trim($_POST["phone"] ?? "");
+$email     = trim($_POST["email"] ?? "");
+$password  = $_POST["password"] ?? "";
+
+if ($full_name === "" || $phone === "" || $email === "" || strlen($password) < 6) {
+    echo "Please fill every field (password: 6 characters minimum). <a href='register.html'>Back</a>";
+    exit;
+}
 
 $hash = password_hash($password, PASSWORD_DEFAULT);
 
@@ -16,5 +20,9 @@ try {
     $stmt->execute([$full_name, $phone, $email, $hash]);
     echo "Account created. <a href='index.html'>Go to login</a>";
 } catch (PDOException $e) {
-    echo "This email is already used. <a href='register.html'>Try again</a>";
+    if ($e->getCode() == 23000) {
+        echo "This email is already used. <a href='register.html'>Try again</a>";
+    } else {
+        throw $e;
+    }
 }
