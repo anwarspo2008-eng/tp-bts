@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Fraunces:opsz,wght@9..144,800&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --paper: #f3ead7;
+    --ink: #1b1a17;
+    --tomato: #e8573a;
+    --butter: #f5c84c;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: "Space Mono", "Courier New", monospace;
+    color: var(--ink);
+    background-color: var(--paper);
+    background-image: radial-gradient(rgba(27, 26, 23, 0.12) 1px, transparent 1px);
+    background-size: 18px 18px;
+}
+
+/* The card */
+.f1 {
+    position: relative;
+    width: 100%;
+    max-width: 360px;
+    padding: 56px 26px 28px;
+    border: 3px solid var(--ink);
+    border-radius: 4px;
+    background: #fffaf0;
+    box-shadow: 8px 8px 0 var(--ink);
+    transform: rotate(-1.2deg);
+}
+
+.f1 fieldset {
+    border: none;
+}
+
+/* Title sticker sitting on the top edge */
+.f2 {
+    position: absolute;
+    top: -22px;
+    left: 18px;
+    transform: rotate(2deg);
+}
+
+.login p {
+    padding: 8px 16px;
+    border: 3px solid var(--ink);
+    background: var(--butter);
+    box-shadow: 4px 4px 0 var(--ink);
+    font-family: "Fraunces", Georgia, serif;
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Fields */
+.fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    margin-bottom: 4px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 2px solid var(--ink);
+    border-radius: 0;
+    background: #fff;
+    font-family: inherit;
+    font-size: 1rem;
+    color: var(--ink);
+    outline: none;
+}
+
+input:focus {
+    background: #fff6d6;
+    box-shadow: 4px 4px 0 var(--ink);
+    transform: translate(-2px, -2px);
+}
+
+.b1 {
+    width: 100%;
+    padding: 12px;
+    margin-top: 4px;
+    border: 3px solid var(--ink);
+    background: var(--tomato);
+    color: #fffaf0;
+    font-family: "Fraunces", Georgia, serif;
+    font-size: 1.1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: 5px 5px 0 var(--ink);
+    transition: transform 0.08s, box-shadow 0.08s;
+}
+
+.b1:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 7px 7px 0 var(--ink);
+}
+
+.b1:active {
+    transform: translate(5px, 5px);
+    box-shadow: 0 0 0 var(--ink);
+}
