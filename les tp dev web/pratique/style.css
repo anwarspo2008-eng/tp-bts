@@ -43,7 +43,6 @@ body {
     border: none;
 }
 
-/* Title sticker on the top edge */
 .f2 {
     position: absolute;
     top: -22px;
@@ -63,7 +62,6 @@ body {
     letter-spacing: 1px;
 }
 
-/* Fields */
 .fields {
     display: flex;
     flex-direction: column;
@@ -143,7 +141,6 @@ input:focus {
     background: var(--butter);
 }
 
-/* Logout page */
 .msg {
     margin-bottom: 22px;
     text-align: center;
