@@ -1,0 +1,30 @@
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\bin\Debug\net10.0-windows\TP gestion stagiare.exe
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\bin\Debug\net10.0-windows\TP gestion stagiare.deps.json
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\bin\Debug\net10.0-windows\TP gestion stagiare.runtimeconfig.json
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\bin\Debug\net10.0-windows\TP gestion stagiare.dll
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\bin\Debug\net10.0-windows\TP gestion stagiare.pdb
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\bin\Debug\net10.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\bin\Debug\net10.0-windows\Google.Protobuf.dll
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\bin\Debug\net10.0-windows\K4os.Compression.LZ4.dll
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\bin\Debug\net10.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\bin\Debug\net10.0-windows\K4os.Hash.xxHash.dll
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\bin\Debug\net10.0-windows\MySql.Data.dll
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\bin\Debug\net10.0-windows\ZstdSharp.dll
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\bin\Debug\net10.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\bin\Debug\net10.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\bin\Debug\net10.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\bin\Debug\net10.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\bin\Debug\net10.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\obj\Debug\net10.0-windows\TP gestion stagiare.csproj.AssemblyReference.cache
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\obj\Debug\net10.0-windows\TP_gestion_stagiare.Form1.resources
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\obj\Debug\net10.0-windows\TP gestion stagiare.csproj.GenerateResource.cache
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\obj\Debug\net10.0-windows\TP gestion stagiare.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\obj\Debug\net10.0-windows\TP gestion stagiare.AssemblyInfoInputs.cache
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\obj\Debug\net10.0-windows\TP gestion stagiare.AssemblyInfo.cs
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\obj\Debug\net10.0-windows\TP gestion stagiare.csproj.CoreCompileInputs.cache
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\obj\Debug\net10.0-windows\TP gesti.B1DD9D12.Up2Date
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\obj\Debug\net10.0-windows\TP gestion stagiare.dll
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\obj\Debug\net10.0-windows\refint\TP gestion stagiare.dll
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\obj\Debug\net10.0-windows\TP gestion stagiare.pdb
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\obj\Debug\net10.0-windows\TP gestion stagiare.genruntimeconfig.cache
+C:\Users\SALAZAR\Desktop\TP gestion stagiare\TP gestion stagiare\obj\Debug\net10.0-windows\ref\TP gestion stagiare.dll
