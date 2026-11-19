@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Register</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,6 +13,7 @@
                 <p>REGISTER</p>
             </div>
         </fieldset>
+
         <form action="register.php" method="post">
             <fieldset>
                 <div class="fields">
@@ -20,8 +23,8 @@
                     <input type="tel" name="phone" required>
                     <p class="text">Email</p>
                     <input type="email" name="email" required>
-                    <p class="text">Password</p>
-                    <input type="password" name="password" required>
+                    <p class="text">Password (6+ characters)</p>
+                    <input type="password" name="password" minlength="6" required>
                     <button type="submit" class="b1">register</button>
                 </div>
             </fieldset>

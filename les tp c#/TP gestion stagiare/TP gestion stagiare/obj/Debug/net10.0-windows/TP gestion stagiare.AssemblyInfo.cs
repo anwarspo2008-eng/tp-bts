@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP gestion stagiare")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3551f2b509359833be1729bbe18b907a924bbe4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60a4e56d4cbd548a114be80866e3536f33a10392")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP gestion stagiare")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP gestion stagiare")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
