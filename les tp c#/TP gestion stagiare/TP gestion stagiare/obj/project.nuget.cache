@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hTKP253Q2c8=",
+  "dgSpecHash": "rWOCQ0gsF6E=",
   "success": true,
-  "projectFilePath": "C:\\wamp64\\www\\les tp php\\les tp c#\\TP gestion stagiare\\TP gestion stagiare\\TP gestion stagiare.csproj",
+  "projectFilePath": "C:\\Users\\SALAZAR\\Desktop\\php\\les tp c#\\TP gestion stagiare\\TP gestion stagiare\\TP gestion stagiare.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SALAZAR\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\SALAZAR\\.nuget\\packages\\google.protobuf\\3.35.0\\google.protobuf.3.35.0.nupkg.sha512",

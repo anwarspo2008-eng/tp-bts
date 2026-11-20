@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\wamp64\\www\\les tp php\\les tp c#\\TP gestion stagiare\\TP gestion stagiare\\TP gestion stagiare.csproj": {}
+    "C:\\Users\\SALAZAR\\Desktop\\php\\les tp c#\\TP gestion stagiare\\TP gestion stagiare\\TP gestion stagiare.csproj": {}
   },
   "projects": {
-    "C:\\wamp64\\www\\les tp php\\les tp c#\\TP gestion stagiare\\TP gestion stagiare\\TP gestion stagiare.csproj": {
+    "C:\\Users\\SALAZAR\\Desktop\\php\\les tp c#\\TP gestion stagiare\\TP gestion stagiare\\TP gestion stagiare.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\wamp64\\www\\les tp php\\les tp c#\\TP gestion stagiare\\TP gestion stagiare\\TP gestion stagiare.csproj",
+        "projectUniqueName": "C:\\Users\\SALAZAR\\Desktop\\php\\les tp c#\\TP gestion stagiare\\TP gestion stagiare\\TP gestion stagiare.csproj",
         "projectName": "TP gestion stagiare",
-        "projectPath": "C:\\wamp64\\www\\les tp php\\les tp c#\\TP gestion stagiare\\TP gestion stagiare\\TP gestion stagiare.csproj",
+        "projectPath": "C:\\Users\\SALAZAR\\Desktop\\php\\les tp c#\\TP gestion stagiare\\TP gestion stagiare\\TP gestion stagiare.csproj",
         "packagesPath": "C:\\Users\\SALAZAR\\.nuget\\packages\\",
-        "outputPath": "C:\\wamp64\\www\\les tp php\\les tp c#\\TP gestion stagiare\\TP gestion stagiare\\obj\\",
+        "outputPath": "C:\\Users\\SALAZAR\\Desktop\\php\\les tp c#\\TP gestion stagiare\\TP gestion stagiare\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
