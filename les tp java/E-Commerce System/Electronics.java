@@ -1,6 +1,6 @@
 public class Electronics extends product {
     
-    private int warrantyMonths;
+    private final int warrantyMonths;
 
     public Electronics(String id, String name, int price, int warrantyMonths) {
         super(id, name, price); 
