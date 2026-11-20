@@ -16,5 +16,8 @@ public class moto extends Vehicule implements Assurable{
     public double calculerAssurance() {
         return this.tarif * 0.15;
     }
-    
+    @Override
+    public String toString() {
+        return super.toString() + ", cylindre : " + cylindre;
+    }
 }
