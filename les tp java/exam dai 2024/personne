@@ -1,0 +1,104 @@
+import java.io.Serializable;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public abstract class Personne implements Serializable {
+    private String num;
+    private String nom;
+    
+    public Personne(String num, String nom){
+        this.num = num;
+        this.nom = nom;
+    }
+    
+    @Override
+    public String toString() { 
+        return "Numéro : " + num + ", Nom : " + nom; 
+    }
+    
+    @Override 
+    public boolean equals(Object o) { 
+        if (o == null || !(o instanceof Personne)) return false;
+        Personne c = (Personne) o; 
+        return this.num.equalsIgnoreCase(c.num); 
+    } 
+    
+    public abstract double calculer();
+}
+
+public class Enseignant extends Personne {
+    private int indice;
+    private Date dateAff;
+
+    public Enseignant(String num, String nom, int ind, Date dtAff) throws ErreurIndice {
+        super(num, nom); 
+        
+        if(ind < 200 || ind > 1000) {
+            throw new ErreurIndice("L'indice est invalide"); 
+        }        
+        this.indice = ind;
+        this.dateAff = dtAff;
+    }
+    
+    public int getIndice() {
+        return indice;
+    }
+
+    public Date getDateAff() {
+        return dateAff;
+    }
+
+    @Override
+    public String toString(){
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        return super.toString() + ", Indice : " + indice + ", Date d'affectation : " + sdf.format(dateAff);
+    }
+    
+    @Override
+    public double calculer() {
+        double salaireBrute = this.indice * 25.0;
+        double igr = salaireBrute * 0.38; 
+        double salaireNet = salaireBrute - igr;
+        
+        return salaireNet;
+    }
+}
+
+class ErreurIndice extends Exception { 
+    public ErreurIndice(String message) { 
+        super(message); 
+    } 
+}
+public class Etudiant extends Personne {
+    private int niveau;
+    private Date dateIns;
+
+    public Etudiant(String num, String nom, int niv, Date ins) throws ErreurNiveau {
+        super(num, nom); 
+        
+        if (niv != 1 && niv != 2 && niv != 3) {
+            throw new ErreurNiveau("Le niveau doit être obligatoirement 1, 2 ou 3.");
+        }
+        
+        this.niveau = niv;
+        this.dateIns = ins;
+    }
+
+    @Override
+    public String toString() {
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        
+        return super.toString() + ", Niveau : " + niveau + ", Date d'inscription : " + sdf.format(dateIns);
+    }
+
+    @Override
+    public double calculer() {
+        return 1000.0 + (150 * this.niveau);
+    }
+}
+
+class ErreurNiveau extends Exception {
+    public ErreurNiveau(String message) {
+        super(message);
+    }
+}
