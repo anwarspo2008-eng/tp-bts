@@ -12,7 +12,7 @@ public class main{
 
         //3-print date a partie de ms
         Date d2 = new Date(ms);
-        System.err.println("date reconstruit :" +d2);
+        System.out.printf(l, format, args)
         
     }
 }
