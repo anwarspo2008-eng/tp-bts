@@ -10,7 +10,7 @@ public class OutilsTexte{
     if (matricule == null) {
         return false;
     }
-    boolean commenceParMA = matricule.startsWith("MA-");
+    boolean commenceParMA = matricule.startsWith("MA- ");
     boolean finitPar26 = matricule.endsWith("-26");
     boolean contientTiret = matricule.indexOf('-') != -1;
     return commenceParMA && finitPar26 && contientTiret;
